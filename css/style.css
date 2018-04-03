@@ -1,5 +1,5 @@
 body{
-  background-image: url(../images/mouton2.jpeg);
+  background-image: url(../images/moutons.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   margin:0;
@@ -61,8 +61,10 @@ body{
 
 .sign-in a{
   text-decoration: none;
+  color:white;
 }
 
 .sign-up a{
   text-decoration: none;
+  color: white;
 }
