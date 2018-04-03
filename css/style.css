@@ -1,0 +1,68 @@
+body{
+  background-image: url(../images/mouton2.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin:0;
+  padding:0;
+}
+
+.main{
+  width: 60%;
+  margin: auto;
+  margin-top: 1%;
+}
+
+.titre{
+  width: 90%;
+  margin: auto;
+  color: yellow;
+  display: flex;
+  flex-wrap:nowrap;
+  justify-content:center;
+}
+
+.titre h1{
+  font-size: 3em;
+}
+
+.center_block{
+  width: 50%;
+  margin: auto;
+  margin-top: 20%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.sign-in{
+  width: 80%;
+  margin: 10%;
+  background-color: green;
+  color: yellow;
+  display: flex;
+  flex-wrap:nowrap;
+  justify-content: center;
+  border: 3px solid black;
+  border-radius: 10px;
+  font-size: 2em;
+}
+
+.sign-up{
+  width: 80%;
+  margin: 10%;
+  background-color: green;
+  color: yellow;
+  display: flex;
+  flex-wrap:nowrap;
+  justify-content: center;
+  border: 3px solid black;
+  border-radius: 10px;
+  font-size: 2em;
+}
+
+.sign-in a{
+  text-decoration: none;
+}
+
+.sign-up a{
+  text-decoration: none;
+}

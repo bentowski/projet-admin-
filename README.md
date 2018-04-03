@@ -1,1 +1,1 @@
-projet-admin*
+projet-admin
