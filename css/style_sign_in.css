@@ -1,21 +1,48 @@
 body{
-    background-color: Blue;
-    margin:0;
-    padding:0;
+  background-image: url(../images/moutons.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin:0;
+  padding:0;
 }
 
 .main{
-  width: 70%;
+  width: 60%;
   margin: auto;
-  margin-left: 20%;
-  margin-top: 10%;
+  margin-top: 1%;
 }
 
-.maintenance{
-  font-size: 4em;
-  color: #fff;
+.titre{
+  width: 90%;
+  margin: auto;
+  color: yellow;
+  display: flex;
+  flex-wrap:nowrap;
+  justify-content:center;
 }
 
-.maintenance a{
-  color:#fff;
+.center_block{
+  background-color: green;
+  width: 50%;
+  margin: auto;
+  margin-top: 20%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+
+h1{
+  display: flex;
+  justify-content: center;
+}
+
+form p{
+  display: flex;
+  justify-content: center;
+}
+
+.connexion {
+  display: flex;
+  justify-content: center;
 }
