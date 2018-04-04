@@ -57,7 +57,7 @@ ul li{
   border-radius: 10px 0 0 10px;
 }
 
-.contact{
+.CONTACT{
   border-radius: 0 10px 10px 0;
 }
 
@@ -81,7 +81,7 @@ ul li{
   margin-bottom: 20px;
   display: flex;
   justify-content: center;
-  border-radius: 10px;
+  border-radius: 50px;
 }
 
 .about p{
@@ -91,9 +91,85 @@ ul li{
 
 /*==============Sample=============*/
 
+.sample{
+  margin: auto;
+  border-bottom: 3px solid black;
+  width: 90%;
+}
+
+.sample h3{
+  width: 50%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #FFD30D;
+  display: flex;
+  justify-content: center;
+  border-radius: 50px;
+}
+
+.sample p{
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.sample video{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 20px;
+}
 /*=============Pamphlets==============*/
 
+.pamphlets{
+  margin: auto;
+  border-bottom: 3px solid black;
+  width: 90%;
+}
+
+.pamphlets h3{
+  width: 50%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #FFD30D;
+  display: flex;
+  justify-content: center;
+  border-radius: 50px;
+}
+
+.pamphlets img{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.pamphlets p{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
 /*============Contact===============*/
+
+.contact{
+  margin: auto;
+  margin-bottom: 20px;
+  border-bottom: 3px solid black;
+  width: 90%;
+}
+
+.contact h3{
+  width: 50%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 80px;
+  background-color: #FFD30D;
+  display: flex;
+  justify-content: center;
+  border-radius: 50px;
+}
 
 /*===========footer============*/
 
