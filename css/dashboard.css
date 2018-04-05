@@ -89,9 +89,18 @@ body{
   background-color: #F4F4F4;
 }
 
+.header ul li:hover{
+  background-color:#002A4E;
+  color: #fff;
+}
+
+.header ul li:hover a{
+  color:white;
+}
+
 .header a{
   text-decoration: none;
-  color: black;
+  color:black;
 }
 
 .home{
