@@ -18,7 +18,15 @@
     <!--header et menu -->
     <header class="header" id="HOME">
 
-      <img class="logo" src="images/logo.png" alt=logo>
+      <div class="head">
+
+        <img class="logo" src="images/logo.png" alt=logo>
+
+        <p>
+          <label for="search">Search</label>
+          <input placeholder="Ex: tagfaster" type="text" name="search" id="search" autofocus/>
+        </p>
+      </div>
 
       <!-- Navigation -->
       <nav class="navbar navbar-default navbar-fixed-top">
@@ -118,15 +126,15 @@
         <h3> Some Figures</h3>
 
         <div>
-          <canvas id="myChart" height="auto"></canvas>
+          <canvas id="myChart" height="300"></canvas>
         </div>
 
         <div>
-          <canvas id="sector" height="auto"></canvas>
+          <canvas id="sector" height="300"></canvas>
         </div>
 
         <div>
-          <canvas id="prevision" height="auto"></canvas>
+          <canvas id="prevision" height="300"></canvas>
         </div>
 
         <!--ChartJS barres -->
@@ -216,7 +224,7 @@
                 text:'Sales segments 2017 (%)',
               },
               legend:{
-                display:true
+                display:false,
               }
             }
           });
@@ -253,6 +261,7 @@
                   409,
                   410
                 ],
+                backgroundColor:'rgba(0,0,0,0.4)',
                 borderWidth:1,
                 borderColor:'grey',
                 hoverBorderWidth:3,
@@ -267,7 +276,7 @@
               legend:{
                 display:false
               }
-            }
+            },
           });
 
         </script><!-- fin chartJS courbes -->

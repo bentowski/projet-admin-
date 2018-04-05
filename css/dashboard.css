@@ -14,13 +14,13 @@ body{
 
 .produits{
   width: 100%;
-  background-color: #FFD30D;
+  background-color: #7d7d7d;
 }
 
 .produits h3{
   width: 80%;
   margin: auto;
-  margin-top: 20px;
+  margin-top: 40px;
   margin-bottom: 100px;
   background-color: white;
   color: black;
@@ -30,13 +30,11 @@ body{
 }
 
 #myChart{
-  margin-bottom: 100%;
-  margin: auto;
-  width: 95%;
+  margin-bottom: 100px;
 }
 
 #sector{
-  margin-bottom: 100%;
+  margin-bottom: 100px;
 }
 
 /*=============section mainBody=============*/
@@ -48,14 +46,26 @@ body{
 /*==============Header===========*/
 .header{
     margin: auto;
-    height: 300px;
+    height: 250px;
     background-color: #002A4E;
     display: flex;
     flex-direction: column;
 }
 
 .logo{
+  margin-right: 600px;
+}
+
+.head{
   margin:auto;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.header label{
+  color: white;
+  float: right;
 }
 
 .header ul{
@@ -108,7 +118,7 @@ body{
   background-color: #FFD30D;
   width: 50%;
   margin: auto;
-  margin-top: 20px;
+  margin-top: 40px;
   margin-bottom: 20px;
   display: flex;
   justify-content: center;

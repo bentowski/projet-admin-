@@ -1,34 +1,24 @@
 body{
-  background-image: url(../images/moutons.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
   margin:0;
   padding:0;
 }
 
 .main{
-  width: 60%;
   margin: auto;
-  margin-top: 1%;
 }
 
 .titre{
-  width: 90%;
-  margin: auto;
-  color: yellow;
+  height: 150px;
+  background-color: #002A4E;
   display: flex;
-  flex-wrap:nowrap;
   justify-content:center;
-}
-
-.titre h1{
-  font-size: 3em;
+  align-items: center;
 }
 
 .center_block{
-  width: 50%;
+  width: 30%;
   margin: auto;
-  margin-top: 20%;
+  margin-top: 10%;
   padding-top: 1%;
   padding-bottom: 1%;
 }
@@ -36,7 +26,7 @@ body{
 .sign-in{
   width: 80%;
   margin: 10%;
-  background-color: green;
+  background-color: #002A4E;
   color: yellow;
   display: flex;
   flex-wrap:nowrap;
@@ -49,7 +39,7 @@ body{
 .sign-up{
   width: 80%;
   margin: 10%;
-  background-color: green;
+  background-color:#002A4E;
   color: yellow;
   display: flex;
   flex-wrap:nowrap;
