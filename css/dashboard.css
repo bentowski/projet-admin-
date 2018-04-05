@@ -48,24 +48,18 @@ body{
     margin: auto;
     height: 250px;
     background-color: #002A4E;
-    display: flex;
-    flex-direction: column;
 }
 
-.logo{
-  margin-right: 600px;
+.cadi{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 30px;
+  padding-top: 10px;
 }
 
 .head{
-  margin:auto;
-  padding-top: 20px;
   display: flex;
-  flex-direction: row;
-}
-
-.header label{
-  color: white;
-  float: right;
+  justify-content: space-around;
 }
 
 .header ul{
