@@ -5,6 +5,7 @@ body{
 
 .main{
   margin: auto;
+  height: 800px;
 }
 
 .titre{
@@ -25,4 +26,15 @@ p{
   display: flex;
   justify-content: center;
   border-radius: 50px;
+}
+
+/*===========footer============*/
+
+footer{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #002A4E;
+  color: #FFFFFF;
+  padding-right: 10px;
 }
