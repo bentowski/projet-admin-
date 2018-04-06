@@ -44,6 +44,14 @@ body{
   color: white;
 }
 
+.header .deco{
+  border-radius: 0 10px 10px 0;
+}
+
+.header .profil{
+  border-radius: 10px 0 0 10px;
+}
+
 .header ul{
   padding: inherit;
   border-radius: 10px;

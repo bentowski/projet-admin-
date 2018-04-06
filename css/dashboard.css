@@ -50,6 +50,14 @@ body{
     background-color: #002A4E;
 }
 
+.header .deco{
+  border-radius: 0 10px 10px 0;
+}
+
+.header .profil{
+  border-radius: 10px 0 0 10px;
+}
+
 .cadi{
   display: flex;
   justify-content: flex-end;
