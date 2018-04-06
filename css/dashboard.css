@@ -10,6 +10,14 @@ body{
   flex-direction: row-reverse;
 }
 
+.all{
+  pointer-events: none;
+}
+
+.all:target{
+  pointer-events: auto;
+}
+
 /*=============section produits============*/
 
 .produits{
@@ -237,7 +245,7 @@ body{
   height: 200px;
   margin: auto;
   background-color: #002A4E;
-  position: absolute;
+  position: fixed;
   display: flex;
   flex-direction: column;
   align-items: : center;
@@ -247,6 +255,7 @@ body{
   left: 0px;
   opacity:0;
   pointer-events: none;
+  z-index: 200;
 }
 
 .nouveauMembre:target{
@@ -265,6 +274,7 @@ body{
 .nouveauMembre button{
   width: 50px;
   margin: auto;
+  border-radius: 5px;
 }
 
 .nouveauMembre .btn {
