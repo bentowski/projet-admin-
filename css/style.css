@@ -18,7 +18,7 @@ body{
 .center_block{
   width: 30%;
   margin: auto;
-  margin-top: 10%;
+  margin-top: 9%;
   padding-top: 1%;
   padding-bottom: 1%;
 }
@@ -57,4 +57,110 @@ body{
 .sign-up a{
   text-decoration: none;
   color: white;
+}
+
+.register{
+  width:400px;
+  height: 400px;
+  margin: auto;
+  background-color: #002A4E;
+  position: absolute;
+  top:0px;
+  bottom:0px;
+  right: 0px;
+  left: 0px;
+  opacity:0;
+  pointer-events: none;
+}
+
+.register:target{
+  opacity:1;
+  pointer-events: auto;
+  transition: all 1s;
+}
+
+.doc{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20%;
+}
+
+.doc p{
+  color: white;
+}
+
+.doc #pseudo,
+.doc #mail,
+.doc #mdp{
+  margin-left: 13%;
+}
+
+.doc .submit,
+.doc #pseudo,
+.doc #mail,
+.doc #mdp,
+.doc .compte{
+  display: flex;
+  justify-content: center;
+}
+
+.doc .compte{
+  color: white;
+  text-decoration: none;
+}
+
+
+
+.connexion{
+  width:400px;
+  height: 400px;
+  margin: auto;
+  background-color: #002A4E;
+  position: absolute;
+  top:0px;
+  bottom:0px;
+  right: 0px;
+  left: 0px;
+  opacity:0;
+  pointer-events: none;
+}
+
+.connexion:target{
+  opacity:1;
+  pointer-events: auto;
+  transition: all 1s;
+}
+
+.co{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10%;
+}
+
+.co h1{
+  color: white;
+}
+
+.co p{
+  color: white;
+}
+
+.co #pseudo,
+.co #mdp{
+  margin-left: 13%;
+}
+
+.co .submit,
+.co #pseudo,
+.co #mdp,
+.co em{
+  display: flex;
+  justify-content: center;
+}
+
+.co em{
+  color: white;
+  text-decoration: none;
 }
