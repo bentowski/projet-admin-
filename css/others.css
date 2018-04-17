@@ -100,6 +100,68 @@ body{
   color: black;
 }
 
+#search{
+  background-color: #fff;
+  border-radius: 0px;
+  font-size: 15px;
+  width: auto;
+}
+
+/*============calculator========*/
+.calculator{
+  background-color: #ffe;
+  border: 2px solid black;
+  width: 500px;
+  height: auto;
+  margin: auto;
+}
+
+.console{
+  margin-left: 5%;
+}
+
+input {
+  width: 19%;
+  height: 25%;
+  font-size: 75px;
+  border-radius: 10px;
+  margin: 2.1%;
+  background-color: #000;
+  color: #fff;
+  border-style: none;
+}
+
+.nbr:hover{
+  background-color: #fff;
+  color: #000;
+  transform: scaleX(-1);
+}
+
+
+h1{
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.symbol{
+  background-color: #cc5c11;
+  color: #fff;
+}
+
+#C, #egal{
+  background-color: #cc0000;
+  color: #fff;
+}
+
+.display{
+  width: 95%;
+  height: 20%;
+  text-align: center;
+  background-color: #1f80c9;
+  border: 3px solid black;
+}
+
+
 /*===========footer============*/
 
 footer{
