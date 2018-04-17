@@ -15,6 +15,10 @@ body{
   align-items: center;
 }
 
+.titre img{
+  border-radius: 10px;
+}
+
 .center_block{
   width: 30%;
   margin: auto;
