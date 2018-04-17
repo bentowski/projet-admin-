@@ -38,31 +38,30 @@
       <div class="cadi">
 
       <a href="monProfil.html"><img class="profil" src="images/profil.jpg" width="30" height="30"></a>
-      <a href="monPanier.html"><img src="images/cadi.jpg" width="30" height="30"></a>
+      <a href="clock.html"><img src="images/clock.png" width="30" height="30"></a>
       <a href="accueil.html"><img class="deco" src="images/power.jpg" width="30" height="30"></a>
 
       </div>
 
       <div class="head">
 
-        <img class="logo" src="images/logo.png" alt=logo>
 
         <p>
           <label for="search">Search</label>
-          <input placeholder="Ex: tagfaster" type="text" name="search" id="search" autofocus/>
+          <input placeholder="Ex: javascript" type="text" name="search" id="search" autofocus/>
 
       </div>
 
       <!-- Navigation -->
       <nav class="navbar navbar-default navbar-fixed-top">
 
-          <ul class="nav navbar-nav navbar-right">
-            <a href="#all" class="nav-item"><li class="home">HOME</li></a>
-            <a href="cheep.html" class="nav-item"><li>CHEEPS</li></a>
-            <a href="ovin.html" class="nav-item"><li>OVINS</li></a>
-            <a href="promo.html" class="nav-item"><li>PROMO</li></a>
-            <a href="divers.html" class="nav-item"><li class="CONTACT">DIVERS</li></a>
-          </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <a href="dashboard.html#all" class="nav-item"><li class="home">HOME</li></a>
+          <a href="html.html" class="nav-item"><li>HTML</li></a>
+          <a href="css.html" class="nav-item"><li>CSS</li></a>
+          <a href="js.html" class="nav-item"><li>JS</li></a>
+          <a href="others.html" class="nav-item"><li class="CONTACT">OTHERS</li></a>
+        </ul>
 
       </nav>
 
@@ -126,11 +125,11 @@
           <section class="pamphlets" id="PAMPHLETS">
 
 
-            <h3>Pamphlets</h3>
+            <h3>Books</h3>
 
-            <img src="images/pamphlets2017.jpg">
+            <img src="images/jsforkids.jpg" width="300" height="500">
 
-            <p><a href="download.html" target="_blank">pamphlets 2017</a></p>
+            <p><a href="download.html" target="_blank">javascript pour les kids</a></p>
 
 
           </section><!-- fin section pamphlets -->
@@ -140,6 +139,13 @@
 
 
             <h3>Contact</h3>
+
+
+            <p>michel durand</p>
+            <p>tel: 08 123 123 99</p>
+            <p>mail : cdubidon@poisson.com</p>
+            <p>adresse postal:</p>
+            <p>58 rue Perpette les Oies </br> 23500 Le Pays Imaginaire</p>
 
 
 
@@ -179,7 +185,7 @@
             data:{
               labels:['2013','2014', '2015', '2016', '2017'],
               datasets:[{
-                label: 'Turnover',
+                label: 'Members',
                 data:[
                   300,
                   335,
@@ -203,7 +209,7 @@
             options:{
               title:{
                 display:true,
-                text:'Turnover lasts 4years (M)',
+                text:'Members (M)',
               },
               legend:{
                 display:false
@@ -225,7 +231,7 @@
 
             type:'pie',
             data:{
-              labels:['Cheep','Pheasant','Ovine','Others'],
+              labels:['html','css','JS','Others'],
               datasets:[{
                 labels:[],
                 data:[
@@ -249,7 +255,7 @@
             options:{
               title:{
                 display:true,
-                text:'Sales segments 2017 (%)',
+                text:'success rates (%)',
               },
               legend:{
                 display:false,
@@ -276,18 +282,18 @@
               datasets:[{
                 labels: 'Turnover',
                 data:[
-                  372,
-                  373,
-                  374,
-                  375,
-                  378,
-                  382,
-                  390,
-                  399,
-                  407,
-                  407,
-                  409,
-                  410
+                  5,
+                  17,
+                  23,
+                  23,
+                  23,
+                  23,
+                  27,
+                  31,
+                  40,
+                  41,
+                  41,
+                  41
                 ],
                 backgroundColor:'rgba(0,0,0,0.4)',
                 borderWidth:1,
@@ -299,7 +305,7 @@
             options:{
               title:{
                 display:true,
-                text:'previsions 2017 (M)',
+                text:'your evolution',
               },
               legend:{
                 display:false
