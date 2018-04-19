@@ -60,14 +60,14 @@
 
             <h1> Connexion </h1>
 
-            <form action="dashboard.html#all">
+            <form action="dashboard.html#all" onsubmit="return envoi()">
 
               <p><label for="pseudo">   Pseudo :</label>
-                <input placeholder="Ex: totodu85" type="text" name="pseudo" id="pseudo" required autofocus/>
+                <input placeholder="Ex: totodu85" type="text" name="pseudo" id="login" required autofocus/>
               </p>
 
               <p><label for="mdp">Password :  </label>
-                <input type="password" name="mdp" id="mdp" required />
+                <input type="password" name="mdp" id="password" required />
               </p>
 
               <div class="submit">
@@ -94,6 +94,10 @@
       </div> <!-- fin center-block -->
 
     </div><!-- fin main -->
+
+    <script src="js/verif.js">
+
+    </script>
 
   </body>
 </html>
