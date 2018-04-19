@@ -179,12 +179,39 @@ body{
   margin-bottom: 20px;
 }
 
-.sample video{
-  display: flex;
-  justify-content: center;
-  margin: auto;
-  margin-bottom: 20px;
+
+/*============slider=============*/
+
+.sample #btn1{
+  padding:10px;
+  border-radius: 30px;
+  background-color: lime;
+  position: absolute;
+  top: 45%;
+  left: 0;
 }
+
+.sample #btnr{
+  padding: 10px;
+  border-radius: 30px;
+  background-color: lime;
+  position: absolute;
+  top: 45%;
+  right: 0;
+}
+
+.sample img{
+  width: 958px;
+  height: 578px;
+}
+
+.sample .wrapper{
+  margin-bottom: 20px;
+  margin-left: 100px;
+  max-width: 1000px;
+  position: relative;
+}
+
 /*=============Pamphlets==============*/
 
 .pamphlets{
